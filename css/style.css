@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: #333;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imgs/plano.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+button, button > i{
+    background-color: #fff;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+    /* Style of Icon */
+    color: #102f5e;
+    font-weight: bold;
+}
+button{
+    border: 2px solid #102f5e;
+}
+button:hover > i,
+button:hover{
+    color: #fff;
+    background-color: #102f5e;
+}
+i{
+    /* Desetivando o evento onclick do Icon, para evitar problemas futuro caso o usuario click no icon e não aconteça o esperado. */
+    pointer-events: none;
+}
+input, select{
+    padding: 0.25rem .6rem;
+}
+.hide{
+    display: none;
+}
+header{
+    margin-top: 3rem;
+    padding: 0 1rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #fffe01;
+    border-right: 1px solid #fffe01;
+    border-top: 1px solid #fffe01;
+}
+header, main{
+    max-width: 450px;
+    margin-inline: auto;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+main{
+    border-left: 1px solid #fffe01;
+    border-right: 1px solid #fffe01;
+    border-bottom: 1px solid #fffe01;
+}
