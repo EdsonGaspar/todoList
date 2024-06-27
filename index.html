@@ -25,7 +25,7 @@
             </div>
         </form>
 
-        <form id="edit-form" class="">
+        <form id="edit-form" class="hide">
             <p>Edita a sua tarefa</p>
             <div id="form-control">
                 <input type="text" id="edit-input">
@@ -38,8 +38,8 @@
             </button>
         </form>
         <div id="toolbar">
+            <h4>Pesquisar</h4>
             <div id="search">
-                <p>Pesquisar</p>
                 <form>
                     <input type="text" id="search-input" placeholder="Busacr">
                     <button id="erase-button">
@@ -56,7 +56,7 @@
                 <option value="todo">A fazer</option>
             </select>
         </div>
-        <div id="todo">
+        <div class="todo done">
             <h3>Estou fazendo alguma coisa...</h3>
             <button class="finish-todo">
                 <i class="fa-solid fa-check"></i>

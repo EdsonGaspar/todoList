@@ -83,3 +83,62 @@ div#form-control{
 #cancel-edit-btn{
     margin-top: 1rem;
 }
+#toolbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+#toolbar h4{
+    margin-bottom: .5rem;
+}
+#search{
+    border-left: 1px solid #ddd;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+#search form{
+    display: flex;
+    gap: 1rem;
+}
+#search-input{
+    width: 100%;
+}
+
+div#filter{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-around;
+    
+    align-items: center;
+    padding: .5rem;
+}
+#filter select{
+    width: 70%;
+}
+
+/* Apresentação da Lista de Tarefas */
+.todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+}
+.todo h3{
+    flex: 1;
+    font-size: .9rem;
+}
+.todo button{
+    margin-left: .4rem;
+}
+.todo .done{
+    background-color: #395169;
+}
+.done h3{
+    text-decoration: line-through;
+    font-style: italic;
+}
