@@ -64,3 +64,22 @@ main{
     border-right: 1px solid #fffe01;
     border-bottom: 1px solid #fffe01;
 }
+/* Editando os Formularios */
+form#todo-form,
+form#edit-form{
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+form#todo-form p,
+form#edit-form p{
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+div#form-control{
+    display: flex;
+    gap: .3rem;
+}
+#cancel-edit-btn{
+    margin-top: 1rem;
+}
